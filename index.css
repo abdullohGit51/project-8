@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+nav {
+  height: 70px;
+  background: #282829;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav_right ul li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-right: 30px;
+}
+.banner {
+  padding: 117px 0;
+  background-image: url("./img/beautiful-emerald-lake-yoho-national-park-british-columbia-canada_131985-177\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1240px;
+  height: 420px;
+  margin: auto;
+}
+.banner h1 {
+  margin: auto;
+  width: 743px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 88px;
+  line-height: 93px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px;
+  width: 1260px;
+  margin: 50px auto 0 auto;
+  margin-bottom: 75px;
+}
+.cards .card img {
+  margin-bottom: 30px;
+}
+.cards .card h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+.cards .card p {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+
+.unspalsh {
+  width: 1240px;
+  margin: 43px auto;
+  font-style: normal;
+  text-align: center;
+  font-family: "Open Sans";
+  color: #000000;
+}
+.unspalsh p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.unspalsh h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  margin: 0 0 20px 0;
+}
+.unspalsh h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+footer {
+  background: #282829;
+  height: 266px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .nav_right {
+  margin-bottom: 30px;
+}
+footer .social {
+  margin-bottom: 30px;
+}
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.65;
+}
